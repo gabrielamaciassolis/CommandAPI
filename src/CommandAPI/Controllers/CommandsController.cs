@@ -26,7 +26,7 @@ public class CommandsController : ControllerBase {
     }
 
     [HttpGet("{id}")]
-    public ActionResult<IEnumerable<Command>> GetCommandById(int id){
+    public ActionResult<IEnumerable<Command>> GetCommandById(string id){
 
         var commandItem = _repository.GetCommandById(id);
 

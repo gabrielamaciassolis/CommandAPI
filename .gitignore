@@ -3,8 +3,12 @@
 project.lock.json
 .DS_Store
 *.pyc
+secrets.json
+
 # Visual Studio Code
 .VS Code
+.vscode/
+
 # User-specific files
 *.suo
 *.user
@@ -28,6 +32,7 @@ msbuild.wrn
 
 # Visual Studio
 .vs/
+
 # Compiled Source
 *.com
 *.class

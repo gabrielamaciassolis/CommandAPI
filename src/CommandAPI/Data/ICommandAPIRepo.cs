@@ -8,7 +8,7 @@ public interface ICommandAPIRepo
         bool SaveChanges();
         
         IEnumerable<Command> GetAllCommands();
-        Command GetCommandById(int id);
+        Command GetCommandById(string id);
 
         void CreateCommand(Command cmd);
 
